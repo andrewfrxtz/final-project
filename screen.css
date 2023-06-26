@@ -9,7 +9,7 @@ body {
     margin: 40px;
     padding: 40px;
     color: #fdfdfd;
-    background: #a3a191bd;
+    background: #66655cbd;
 }
 
 ul {
@@ -60,27 +60,26 @@ p {
     
 }
 
-.pics {
-    margin: 10px;
-    padding: 10px;
-    object-fit: contain;
-    border-radius: 50%;
-}
-
 img {
     max-width: 40%;
     max-height: 40%;
+    margin: 10px;
+    padding: 10px;
+    object-fit: contain;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
 }
 
 article {
     background: #b0a8a8;
-    border-bottom: 1px solid #000;
+    border: 2px solid #fff;
     padding: 15px;
     margin: 15px;
 }
 
 button {
     border-radius: 25px;
-    background-color: #173F35; 
+    background-color: #c9b0e7; 
     color: #fff;
   }
