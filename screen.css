@@ -78,6 +78,30 @@ article {
     margin: 15px;
 }
 
+table {
+    border: 2px solid #eee;
+    object-fit: contain;
+}
+
+
+
+#positions {
+    padding: 2px;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    border-left: 2px solid #eee;
+    border-right: 2px solid #eee;
+}
+
+td {
+    text-align: center;
+}
+
+table.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
 button {
     border-radius: 25px;
     background-color: #c9b0e7; 
